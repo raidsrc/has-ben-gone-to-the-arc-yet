@@ -22,16 +22,7 @@ const Home: NextPage = () => {
         clamp: true
       }
     })))
-  // const trail = useTrail(3, {
-  //   from: { opacity: !mouseOver ? 0 : 1 },
-  //   to: { opacity: !mouseOver ? 1 : 0 },
-  //   config: {
-  //     mass: 3,
-  //     frequency: !mouseOver ? 2 : 1,
-  //     damping: !mouseOver ? 6 : 1,
-  //     clamp: true
-  //   }
-  // })
+
 
   return (
     <div className='flex flex-col justify-center items-center w-screen h-screen bg-slate-600'>
