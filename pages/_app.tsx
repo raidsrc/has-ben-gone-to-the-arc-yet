@@ -6,7 +6,7 @@ import Head from 'next/head'
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} >
     <Head>
-      <link rel="shortcut icon" href='../public/favicon2.ico' />
+      <link rel="shortcut icon" href='../favicon2.ico' />
     </Head>
   </Component>
 
