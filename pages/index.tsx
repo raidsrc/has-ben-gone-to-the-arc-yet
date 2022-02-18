@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className='flex justify-center items-center w-screen h-screen bg-slate-400'>
-      <div className='text-6xl'>Hi</div>
+    <div className='flex justify-center items-center w-screen h-screen bg-slate-600'>
+      <div className='text-9xl text-gray-300'>No</div>
     </div>
   )
 }
