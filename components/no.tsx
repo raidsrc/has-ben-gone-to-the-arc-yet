@@ -13,7 +13,9 @@ function No() {
     }
   })
   return (
-    <animated.div style={styles} className="text-3xl" onMouseEnter={() => setMouseEntered(true)} onMouseLeave={() => setMouseEntered(false)}>No</animated.div>
+    <animated.div style={styles} className="text-3xl" onMouseEnter={() => setMouseEntered(true)} onMouseLeave={() => setMouseEntered(false)}>
+      No
+    </animated.div>
   )
 }
 
